@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <title>Document</title>
+</head>
+<body>
+    <header id="header">
+        
+    </header>
+
+    <script>
+        const loadFile = (url) => {
+            const element = document.getElementById('header');
+            req = new XMLHttpRequest();
+            req.open('GET', url, false);
+            req.send(null);
+            element.innerHTML = req.responseText
+        }
+
+        loadFile('../components/header.html') //url
+    </script>
+
+    <main>
+        <h2>about</h2>
+    </main>
+
+    <footer id="footer">
+
+    </footer>
+
+    <script>
+        const loadFileFooter = (url) => {
+           const container = document.getElementById('footer');
+           const req = new XMLHttpRequest();  
+           req.open('GET', url, false);
+           req.send();
+           console.log(req.responseText);
+           container.innerHTML = req.responseText;
+       }
+
+       loadFileFooter('../components/footer.html');
+   </script>
+</body>
+</html>
