@@ -1,5 +1,5 @@
 let id = location.search.split('?')[1]
-const categoryData = {
+export const categoryData = {
     shoe: [
         {
             id: '1',
