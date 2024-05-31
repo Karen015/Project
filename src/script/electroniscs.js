@@ -1,7 +1,6 @@
-
 import { categoryData } from "./category.js";
 const mainContainer = document.getElementById("container");
-const shoeItemsHTML = categoryData.shoe.map((item) => {  
+const elecItemsHTML = categoryData.electronics.map((item) => {  
    return `
    <div class ="item">
    <img src = "${item.preview}"   
@@ -12,4 +11,4 @@ const shoeItemsHTML = categoryData.shoe.map((item) => {
    </div>
    `
    });
-   mainContainer.innerHTML = shoeItemsHTML;
+   mainContainer.innerHTML = elecItemsHTML;
