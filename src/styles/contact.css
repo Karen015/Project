@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+#header {
+  color: white;
+}
+body {
+  background-image: url(../images/pexels-photo-325185.webp);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+body main {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  min-height: 100vh;
+}
+body main .section1 {
+  margin-top: 30px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+body main .section1 h1 {
+  font-size: 300%;
+}
+body main .section2 {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+}
+body main .section2 article {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  font-size: 120%;
+}
+body main .section2 article > div {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  text-align: left;
+  gap: 20px;
+}
+body main .section2 article > div i {
+  font-size: 350%;
+}
+body main .section2 form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: black;
+  gap: 20px;
+  width: 45%;
+  padding: 30px 0;
+}
+body main .section2 form h2 {
+  font-size: 200%;
+}
+body main .section2 form input {
+  font-size: 120%;
+  outline: 0;
+  border: 2px solid black;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  padding: 20px 0;
+  width: 80%;
+}
+body main .section2 form :last-child {
+  border: 1px solid #00BCD4;
+  color: white;
+  background-color: #00BCD4;
+  transition: 0.4s;
+  padding: 15px 0;
+}
+body main .section2 form :last-child:hover {
+  background-color: white;
+  color: #00BCD4;
+  cursor: pointer;
+}
+@media only screen and (max-width: 700px) {
+  main {
+    padding: 40px 0;
+  }
+  main .section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 30px;
+  }
+  main .section2 article {
+    align-self: flex-start;
+    gap: 20px;
+  }
+  main .section2 form {
+    max-width: 700px;
+    min-width: 300px;
+    width: max-content;
+    font-size: 80%;
+    border: 1px solid red;
+  }
+}
