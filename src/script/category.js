@@ -1,13 +1,13 @@
 let id = location.search.split('?')[1]
-const categoryData = {
+export const categoryData = {
     shoe: [
-        {
-            id: '1',
-            name: 'RA5-D09',
-            brand: 'Roberto Piraloff',
-            price: '֏13,300',
-            preview: 'https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/productimage/2018/9/19/b1373b00-37d4-41a0-a908-5d742a68d3661537343756229-1.jpg'
-        },
+        // {
+        //     id: '1',
+        //     name: 'RA5-D09',
+        //     brand: 'Roberto Piraloff',
+        //     price: '֏13,300',
+        //     preview: 'https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/productimage/2018/9/19/b1373b00-37d4-41a0-a908-5d742a68d3661537343756229-1.jpg'
+        // },
         {
             id: '2',
             name: 'RA5-9602',
@@ -59,7 +59,7 @@ const categoryData = {
             preview: 'https://www.robertopiraloff.com/media/catalog/product/cache/e2df9354d7a1c1d99bea9cff5954246a/0/0/00285844_2_.webp'
         }
     ],
-    electronics: [
+    accessories: [
         {
             id: '1',
             name: 'PEN/57004 BLA',
@@ -131,7 +131,8 @@ const categoryData = {
             preview: 'https://www.time.am/upload/resize_cache/iblock/b1f/260_420_0/hvfwey4dvpuduathzkdfs9hk8s9rvu2r.jpg'
         }
     ],
-    accessories: [
+  
+    electronics: [
         {
             id: '1',
             name: 'Մսաղաց',
