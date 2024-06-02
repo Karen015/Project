@@ -12,4 +12,4 @@ const shoeItemsHTML = categoryData.shoe.map((item) => {
    </div>
    `
    });
-   mainContainer.innerHTML = shoeItemsHTML;
+   mainContainer.innerHTML = shoeItemsHTML.join('');

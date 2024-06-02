@@ -11,4 +11,4 @@ const elecItemsHTML = categoryData.electronics.map((item) => {
    </div>
    `
    });
-   mainContainer.innerHTML = elecItemsHTML;
+   mainContainer.innerHTML = elecItemsHTML.join('');
