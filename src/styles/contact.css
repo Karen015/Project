@@ -13,6 +13,7 @@ body {
   background-attachment: fixed;
 }
 body main {
+  margin-top: 35px;
   color: white;
   display: flex;
   flex-direction: column;
