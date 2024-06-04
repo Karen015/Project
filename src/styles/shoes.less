@@ -19,10 +19,16 @@ h2{
     .item{
         display: flex;
         flex-direction: column;       
-        box-shadow: 1px 2px 3px grey;
+        box-shadow: 0 0 10px grey;
         cursor: pointer;
+        border-radius: 5px;
         padding: 10px;
+        transition: 0.3s;
+        gap: 10px;
         position: relative;
+        &:hover{
+            box-shadow: 0 0 20px grey; 
+        }
         button{
             position: absolute;
             padding: 7px;
@@ -32,17 +38,16 @@ h2{
             border: none;
             border-radius: 10px;
             background-color: rgb(238, 69, 97);
+            border: 1px solid rgb(238, 69, 97);
+            transition: 0.3s;
             color: white;
             cursor: pointer;
             &:hover{
                 background-color: white;
                 color: rgb(238, 69, 97);
-                border: 1px solid rgb(238, 69, 97);
             }
         }
-        &:hover{
-            box-shadow: 4px 5px 5px grey; 
-        }
+       
       >img{
         width: 300px;
         height:  auto;

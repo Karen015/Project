@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./src/styles/index.css">
     <link rel="stylesheet" href="./src/styles/footer.css">
     <link rel="stylesheet" href="./src/styles/header.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
     <title>Document</title>
 </head>
 <body>
@@ -23,24 +24,27 @@
             container.innerHTML = req.responseText;
         }
 
-        loadFileHedare('./src/components/header.html'); //url
+        loadFileHedare('./src/components/header.html'); 
     </script>
 
     <main>
-        <!-- <h2>Home</h2>
-        <a href="./src/pages/about.html">About</a> -->
-
-        <!-- <section class="section">
-            <form action="" id="contact">
-                <h2>form</h2>
-            </form>
-        </section> -->
-    <img src="https://i.postimg.cc/t403yfn9/home2.jpg" alt="">
-     <p>SUMMER COLLECTION</p>
-     <div class="text">
-         <h2>FALL - WINTER</h2>
-         <h2>Collection 2023</h2>
-     </div>
+        <section class="collection">
+            <article>
+                <p>SUMMER COLLECTION</p>
+                <h2>FALL - WINTER<br>
+                Collection 2023</h2>
+                <p>A specialist label creating luxury essentials. Ethically crafted<br>
+                    with an unwavering commitment to exceptional quality</p>
+                <input type="submit" value="SHOP NOW ➜">
+                <ul>
+                    <li><a href="#" class="fa fa-facebook"></a></li>
+                    <li><a href="#" class="fa fa-twitter"></a></li>
+                    <li><a href="#" class="fa fa-pinterest"></a></li>
+                    <li><a href="#" class="fa fa-instagram"></a></li>
+                </ul>
+            </article>
+            
+        </section>
     </main>
 
     <footer id="footer">

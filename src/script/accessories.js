@@ -10,5 +10,5 @@ const elecItemsHTML = categoryData.accessories.map((item) => {
    <button>BUY NOW</button>
    </div>
    `
-   });
+});
    mainContainer.innerHTML = elecItemsHTML.join('');

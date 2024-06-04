@@ -19,11 +19,17 @@ h2 {
 }
 #container .item {
   display: flex;
+  border-radius: 5px;
   flex-direction: column;
-  box-shadow: 1px 2px 3px grey;
+  box-shadow: 0 0 10px grey;
+  transition: 0.3s;
   cursor: pointer;
   padding: 10px;
+  gap: 10px;
   position: relative;
+}
+#container .item:hover {
+  box-shadow: 0 0 20px grey;
 }
 #container .item button {
   position: absolute;
@@ -34,16 +40,14 @@ h2 {
   border: none;
   border-radius: 10px;
   background-color: #ee4561;
+  border: 1px solid #ee4561;
+  transition: 0.3s;
   color: white;
   cursor: pointer;
 }
 #container .item button:hover {
   background-color: white;
   color: #ee4561;
-  border: 1px solid #ee4561;
-}
-#container .item:hover {
-  box-shadow: 4px 5px 5px grey;
 }
 #container .item > img {
   width: 300px;
