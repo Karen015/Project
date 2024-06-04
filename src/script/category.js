@@ -1,13 +1,13 @@
 let id = location.search.split('?')[1]
 export const categoryData = {
     shoe: [
-        // {
-        //     id: '1',
-        //     name: 'RA5-D09',
-        //     brand: 'Roberto Piraloff',
-        //     price: '֏13,300',
-        //     preview: 'https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/productimage/2018/9/19/b1373b00-37d4-41a0-a908-5d742a68d3661537343756229-1.jpg'
-        // },
+        {
+            id: '1',
+            name: 'RA5-D09',
+            brand: 'Roberto Piraloff',
+            price: '֏13,300',
+            preview: 'https://assets.myntassets.com/v1/assets/images/productimage/2018/9/19/b1373b00-37d4-41a0-a908-5d742a68d3661537343756229-1.jpg'
+        },
         {
             id: '2',
             name: 'RA5-9602',
