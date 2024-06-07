@@ -56,8 +56,7 @@
             const container = document.getElementById('footer');
             const req = new XMLHttpRequest();  
             req.open('GET', url, false);
-            req.send();
-            console.log(req.responseText);
+            req.send();      
             container.innerHTML = req.responseText;
         }
 

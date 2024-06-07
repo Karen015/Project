@@ -13,7 +13,12 @@
     top: 0;
     width: 100%;
     z-index: 99999999;
-    > ul {
+    .menu-toggle {
+        display: none;
+        cursor: pointer;
+        font-size: 24px;
+    }
+    .menu {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -40,4 +45,21 @@
             }
         }
     }
+}
+@media (max-width: 768px) {
+    .header .menu {
+        display: none;
+        flex-direction: column;         
+        position: absolute;
+        top: 25px;
+        right: 0px;        
+    }
+    .header .menu-toggle {
+        display: block;
+        position: absolute;
+        right: 20px;
+    }
+}
+.menu.active {
+    display: flex;
 }

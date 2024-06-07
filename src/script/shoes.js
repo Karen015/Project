@@ -13,3 +13,4 @@ const shoeItemsHTML = categoryData.shoe.map((item) => {
    `
 });
    mainContainer.innerHTML = shoeItemsHTML.join('');
+  
