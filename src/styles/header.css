@@ -47,19 +47,34 @@
   border-bottom: 2px solid #ff4242;
 }
 @media (max-width: 768px) {
+  .header {
+    padding: 10px 5px;
+  }
   .header .menu {
     display: none;
     flex-direction: column;
     position: absolute;
-    top: 25px;
+    top: 50px;
     right: 0px;
+    background-color: white;
+  }
+  .header .menu li {
+    width: 100%;
+  }
+  .header .menu li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
   }
   .header .menu-toggle {
     display: block;
     position: absolute;
     right: 20px;
+    color: black;
   }
 }
 .menu.active {
   display: flex;
+  box-shadow: 0 0 5px #ccc;
 }
